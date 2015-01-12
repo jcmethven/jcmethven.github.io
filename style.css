@@ -1,73 +1,92 @@
+html { 
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body {
-	background: url(hummingbird3.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	border: 0;
 	margin: 0;
 	padding: 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Myriad';
 	font-size: 20px;
 }
 
-h1 {
- margin: 0;
-}
-
-h2 {
- margin: 0;
-}
-
-a {
-	font-family: blackladder itc, sans-serif;
-	font-variant: small-caps;
-	font-weight: bold;
-	float: right;
-	color: rgb(0,169,178);
-	margin-top: 2%;
-	margin-right: 2%;
-	font-size: 18px;
+nav {
+	text-align: center;
 	text-decoration: none;
 }
 
-#Navigation1 {
-margin-right: 6%;
-color: #0066FF;
+nav2 {
+	float: right;
+	text-decoration: none;
+  	color: #4f4a4a;
+  	margin: 100px;
+  	display: inline-block;
 }
 
-#Navigation2 {
-margin-right: 8%;
-color: #0066FF;
+nav2 a {
+  text-decoration: none;
+  color: black;
+  margin: 50px;
+  display: inline-block;
 }
 
-#Hummings {
-color: rgb(96,96,96);
-font-family: blackladder itc;
-font-style: italic;
-text-align: center;
-letter-spacing: 3px;
-margin-top: 2%;
-font-size: 70px;
+#namelogo2 {
+	text-align: center;
+	margin: 0;
 }
 
-#Great {
-color: #0066FF;
-font-family: blackladder itc;
-text-align: center;
-margin-top: .5%;
-font-size: 25px;
+#writerlogo {
+	text-align: center;
+	margin-top: 0px;
 }
 
-#News {
-text-align: center;
-font-family: blackladder itc;
-line-height: 30px;
-color: rgb(96,96,96);
-font-size: 22px;
-margin-top: 20%;
-padding-left: 38%;
-padding-right: 38%;
+h1 {
+	font-family: 'Myriad';
+	color: #4f4a4a;
+	font-size: 150px;
+	font-weight: 800;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	margin-top: 20px;
+  	margin-left: 20px
 }
-page-wrap {
-width: 960px;
-margin: 0 auto;
+
+#booknews {
+	margin-left: 20;
+	border: 20px;
+	margin: 20px;
+	padding: 20px;
 }
+
+#about {
+	font-family: 'Myriad';
+	background-color: #4f4a4a;
+	color: #FFFFFF;
+	font-size: 20px;
+  	width: 30%;
+  	display: inline-block;
+  	border: 20px;
+	margin: 20px;
+	padding: 20px;
+	clear: both;
+	float: right;
+}
+
+#reviews {
+	font-family: 'Myriad';
+	background-color: #4f4a4a;
+	color: #FFFFFF;
+	font-size: 20px;
+  	width: 30%;
+  	display: inline-block;
+  	border: 20px;
+	margin: 20px;
+	padding: 20px;
+	clear: both;
+}
+
