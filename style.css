@@ -18,24 +18,39 @@ body {
 nav {
 	text-align: center;
 	text-decoration: none;
+  	color: #FFFFFF;
+  	margin: 0 auto;
+  	font-size: 25px;
+  	display: block;
+}
+
+a:hover {
+	color: red;
+}
+
+nav a {
+  text-decoration: none;
+  color: #FFFFFF;
+  margin: 10px;
+  display: inline-block;
 }
 
 nav2 {
 	float: right;
 	text-decoration: none;
   	color: #4f4a4a;
-  	margin: 100px;
+  	margin: 10px;
   	display: inline-block;
 }
 
 nav2 a {
   text-decoration: none;
   color: black;
-  margin: 50px;
+  margin: 10px;
   display: inline-block;
 }
 
-#namelogo2 {
+#namelogo {
 	text-align: center;
 	margin: 0;
 }
@@ -48,7 +63,7 @@ nav2 a {
 h1 {
 	font-family: 'Myriad';
 	color: #4f4a4a;
-	font-size: 150px;
+	font-size: 100px;
 	font-weight: 800;
   	text-transform: uppercase;
   	display: inline-block;
@@ -56,37 +71,35 @@ h1 {
   	margin-left: 20px
 }
 
-#booknews {
-	margin-left: 20;
+#section {
+	float: left;
 	border: 20px;
 	margin: 20px;
 	padding: 20px;
-}
-
-#about {
 	font-family: 'Myriad';
 	background-color: #4f4a4a;
 	color: #FFFFFF;
 	font-size: 20px;
-  	width: 30%;
-  	display: inline-block;
-  	border: 20px;
+  	width: 42%;
+ 
+  
+}
+#strangeboat {
+	margin: 5px;
+	text-align: center;
+}
+#section2 {
+	float: right;
+	border: 20px;
 	margin: 20px;
 	padding: 20px;
-	clear: both;
-	float: right;
+	font-family: 'Myriad';
+	background-color: #4f4a4a;
+	color: #FFFFFF;
+	font-size: 20px;
+  	width: 42%;
 }
 
 #reviews {
-	font-family: 'Myriad';
-	background-color: #4f4a4a;
-	color: #FFFFFF;
-	font-size: 20px;
-  	width: 30%;
-  	display: inline-block;
-  	border: 20px;
-	margin: 20px;
-	padding: 20px;
-	clear: both;
+	font-style: italic;
 }
-
