@@ -38,8 +38,8 @@ a:hover {
 	color: red;
 }
 
-nav a {
-  text-decoration: none;
+nav a   {
+text-decoration: none;
   color: black;
   display: inline-block;
   padding-right: 0px;
@@ -59,6 +59,7 @@ nav2 a {
   color: black;
   display: inline-block;
   margin-right: 25px;
+  text-align: center;
 }
 
 nav3 {
@@ -90,7 +91,7 @@ nav3 a {
 
 .column {
   float: left;
-  width: 30%;
+  width: 25%;
   padding: 20px;
   margin-left: 20px;
   font-style: italic;
@@ -99,23 +100,18 @@ nav3 a {
 }
 
 .column2 {
-	margin-left: 20px
-	border: 20px;
+	margin-left: 3%;
   	overflow: hidden;
+  	float: left;
+  	padding-bottom: 20px;
+  	font-family: 'Lucida Bright';
+  	font-size: 15px;
+  	position: relative;
+  	-moz-box-sizing: border-box;
+  	-webkit-box-sizing: border-box;
+  	box-sizing: border-box;
+  	width: 25%;
 }
-
-.column2 {
-  float: left;
-  width: 30%;
-  padding: 20px;
-  margin-left: 20px;
-  font-family: 'Lucida Bright';
-	font-size: 15px;
-}
-* {
-  box-sizing: border-box;
-}
-
 #namelogo {
 	text-align: center;
 	margin: 0;
@@ -146,6 +142,8 @@ nav3 a {
 #bookslogo {
 	text-align: center;
 	margin: 0;
+	border: 0;
+	padding: 0;
 }
 
 #container {
@@ -175,11 +173,18 @@ hr {
 
 }
 
+main {
+	text-align: center;
+	margin-left: 13%;
+}
+
 ul {
+	text-align: left;
 	list-style:square;
 	position:relative;
 	float:left;
 	margin:0;
+
 }
 
 ul a
@@ -190,25 +195,26 @@ ul a
 	font-weight:700;
 	font-size:15px;
 	line-height:32px;
-	padding:0 15px;
+	padding:0px;
 	}
-	ul li:hover
+
+ul li:hover
 {
 	background:#f6f6f6
 }
 
 #methven {
-	height: 300px;
-	width: 300px;
+	height: 200px;
+	width: 200px;
 	-moz-border-radius: 150px;
 	border-radius: 150px;
-	margin-left: 10%;
+	margin-left: 25%;
 }
 
 #arrows {
-	height: 300px;
-	width: 300px;
-	margin-left: 18%;
+	height: 200px;
+	width: 200px;
+	margin-left: 30%;
 	float: left;
 }
 #bio {
@@ -233,7 +239,7 @@ ul a
 
 #container2 {
     width: 100%;
-    margin-left: 15%;
+    margin-left: 30%;
     text-decoration:none;
   	font-size: 17px;
   	display: block
@@ -242,7 +248,7 @@ ul a
 
 a {
 	  text-decoration:none;
-	  padding-left: 20px;
+	  padding-left: 10px;
 	  margin-left: 20px;
 	  color: black;
 }
@@ -253,10 +259,15 @@ img {
 
 h1 {
 	font-size: 20px;
+	text-transform: uppercase;
 	font-family: Lucida Bright;
-	color: blue;
+	color: gray;
 	font-weight: 300;
 	text-align: center;
+	border: 1px solid;
+	border-color: black;
+	padding: 2px;
+	margin: 10px;
 }
 h3 {margin-left: 30px;
 	font-size: 20px;
@@ -267,6 +278,9 @@ p1 {
 	margin-left: 30px;
 }
 
+#aboutcontainer {
+	text-align: center;
+}
 
 
 
