@@ -15,8 +15,9 @@ body {
 	font-size: 20px;
 }
 
+
 footer {
-	margin-top: 400px;
+	margin-top: 20%;
 	margin-left: 50px;
 	font-family: Lucida Bright;
 	font-size: 15px;
@@ -63,11 +64,10 @@ nav2 a {
 }
 
 nav3 {
-	text-align: center;
+	text-align: right;
 	text-decoration: none;
+	margin-right: 10%;
   	color: black;
-  	margin: 0 auto;
-  	font-size: 17px;
   	display: block;
   	font-weight: bold;
 }
@@ -79,8 +79,6 @@ a:hover {
 nav3 a {
   text-decoration: none;
   color: black;
-  display: inline-block;
-  padding-right: 75px;
 }
 
 .columns {
@@ -96,7 +94,8 @@ nav3 a {
   margin-left: 20px;
   font-style: italic;
   font-family: 'Lucida Bright';
-	font-size: 15px;
+  font-size: 15px;
+  line-height: 130%;
 }
 
 .column2 {
