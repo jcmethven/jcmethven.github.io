@@ -21,12 +21,11 @@ body {
 }
 
 #mainlogo {
-  clear: both;
-  text-align: center;
-border: 0;
-padding: 0;
-z-index: -1;
-
+  	clear: both;
+  	text-align: center;
+	border: 0;
+	padding: 0;
+	z-index: -1;
 }
 
 
@@ -197,8 +196,39 @@ nav3 a {
   	-moz-box-sizing: border-box;
   	-webkit-box-sizing: border-box;
   	box-sizing: border-box;
-  	width: 25%;
+  	width: 45%;
 }
+
+.column3 {
+	margin-left: 3%;
+  	overflow: hidden;
+  	float: left;
+  	padding-bottom: 20px;
+  	font-family: 'Lucida Bright';
+  	font-size: 15px;
+  	position: relative;
+  	-moz-box-sizing: border-box;
+  	-webkit-box-sizing: border-box;
+  	box-sizing: border-box;
+  	width: 45%;
+}
+
+#article {
+text-align: left;
+text-decoration: none;
+line-height: 120%;
+font-weight: 500px;
+}
+
+h2 {
+	font-family: 'Lucida Bright';
+	font-size: 20px;
+	margin-bottom: 3%;
+	text-align: left;
+	color: red;
+
+}
+	
 #namelogo {
 	text-align: center;
 	margin: 0;
