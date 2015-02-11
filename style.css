@@ -9,18 +9,17 @@ html {
 
 body {
 	font-family: 'Lucida Bright';
-	font-size: 20px;
+	font-size: 1em;
 }
 
 #homenav {
-	width: 35%;
+	width: 55%;
 	margin-left: auto;
 	margin-right: auto;
 	border: 0;
 	padding: 0;
 	text-align: center;
 	bottom: 0;
-	z-index: 1;
 
 
 }
@@ -30,7 +29,7 @@ body {
   	text-align: center;
 	border: 0;
 	padding: 0;
-	z-index: -1;
+
 }
 
 
@@ -135,22 +134,18 @@ animation: pulse 6s infinite;
 
 
 
-
-
-
-
 footer {
 	clear: both;
 	font-family: Lucida Bright;
-	font-size: 15px;
+	font-size: 1em;
 	text-align: center;
 	color: gray;
-	margin-top: 1%;
+	margin-top: 5%;
 }
 
 #mainnav {
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 1.5em;
   	color: #4f4a4a;
   	display: block;
   	margin: 0;
@@ -166,109 +161,136 @@ footer {
 }
 #mainnav ul {
 	text-align: left;
-	list-style:square;
-	position:relative;
-	float:left;
-	margin:0;
+	list-style: square;
+	position: relative;
+	float: left;
+	margin: 0;
 
 }
 
 #mainnav ul a
 {
-	display:block;
+	display: block;
 	color: gray;
-	text-decoration:none;
-	font-weight:700;
-	font-size:15px;
-	line-height:32px;
-	padding:0px;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 1em;
+	line-height: 2em;
+	padding: 0px;
 	}
 
 #mainnav ul li:hover
 {
-	background:#f6f6f6
+	background: #f6f6f6;
 }
 
 #mainnav a:hover {
 	color: red;
 }
 
-
-.buylinks ul {
-	margin: 0;
-	padding 5%;
+.buylinks {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 	list-style-type: none;
-	text-align: center;
-	display: inline;
-	float: right;
-}
-.buylinks li {
-  	display: inline-block
-  	float: right;
 }
 
+.buylinks li a {
+	display: block;
+  	
+ }
 
-.buylinks ul li a {
-	text-decoration: none;
-	padding: 5em;
-	display: inline;
-	float: right;
-}
+.buylinks li img {
+	width: 8%;
+	margin-left: 3%;
+  	display: block;
+  	float: left;
+  	padding-right: 5%;
+
+ }
+
+
+
+
 
 .reviews {
-	border: 40px;
+	border: 5%;
   	overflow: hidden;
 }
 
 .column {
   float: left;
   width: 25%;
-  padding: 20px;
+  padding: 1em;
   margin-left: 3%;
   font-style: italic;
   font-family: 'Lucida Bright';
-  font-size: 15px;
+  font-size: .9em;
   line-height: 130%;
 }
 
-.column2 {
-	margin-left: 3%;
-  	overflow: hidden;
-  	float: left;
-  	padding-bottom: 20px;
-  	font-family: 'Lucida Bright';
-  	font-size: 15px;
-  	position: relative;
-  	-moz-box-sizing: border-box;
-  	-webkit-box-sizing: border-box;
-  	box-sizing: border-box;
-  	width: 45%;
+#mainwriting {
+	width: 90%;
+	margin-top: 2%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .column3 {
-	margin-left: 3%;
+	margin-left: 1%;
   	overflow: hidden;
   	float: left;
-  	padding-bottom: 20px;
+  	padding-bottom: 1em;
   	font-family: 'Lucida Bright';
-  	font-size: 15px;
   	position: relative;
   	-moz-box-sizing: border-box;
   	-webkit-box-sizing: border-box;
   	box-sizing: border-box;
-  	width: 45%;
+  	width: 60%;
 }
 
+.column2 {
+	margin-left: 2%;
+  	overflow: hidden;
+  	float: left;
+  	padding-bottom: 1em;
+  	font-family: 'Lucida Bright';
+  	position: relative;
+  	-moz-box-sizing: border-box;
+  	-webkit-box-sizing: border-box;
+  	box-sizing: border-box;
+  	width: 30%;
+  	text-align: left;
+}
+
+.column2 li {
+	padding-bottom: 5%;
+
+}
+.column2 li a {
+	list-style: none;
+	padding-left: 0;
+	line-height: 130%;
+	padding-bottom: 2%;
+}
+
+.column2 ul li:hover {
+	background: #f6f6f6;
+}
+
+.column2 a:hover {
+	color: gray;
+}
 #article {
 text-align: left;
 text-decoration: none;
 line-height: 120%;
-font-weight: 500px;
 }
 
 h2 {
 	font-family: 'Lucida Bright';
-	font-size: 20px;
+	font-size: 1.2em;
+	font-weight: bold;
 	margin-bottom: 3%;
 	text-align: left;
 	color: red;
@@ -285,17 +307,27 @@ h2 {
 #writinglogo {
 	text-align: center;
 	margin: 0;
-	border: 0:
+	border: 0;
 	padding: 0;
 }
 
 #writerlogo {
 	text-align: center;
 	margin: 0;
-	border: 0:
+	border: 0;
 	padding: 0;
 	clear: both;
 }
+
+#writerlogo img {
+	text-align: center;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	clear: both;
+}
+
+
 
 #aboutlogo {
 	text-align: center;
@@ -310,16 +342,17 @@ h2 {
 }
 
 section {
-	width: 65%;
+	width: 90%;
 	margin-left: auto;
-	font-size: 17px;
 	margin-right: auto;
+	margin-bottom: 10%;
 }
 
 #booktext {
 	font-family: 'Lucida Bright';
-	font-size: 17px;
+	font-size: 1em;
 	margin-left: 25%;
+	line-height: 1.3em;
 }
 
 #reviews {
@@ -331,8 +364,8 @@ hr {
 	color: gray; 
 	background: gray; 
 	width: 75%; 
-	height: 5px;
-	margin-top: 10px;
+	height: .2em;
+	margin-top: 5%;
 
 }
 
@@ -343,96 +376,295 @@ main {
 
 
 #mainabout {
-	width: 40%;
+	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
 
 }
 #methven {
-	height: 200px;
-	width: 200px;
-	-moz-border-radius: 150px;
-	border-radius: 150px;
+	width: 12.5em;
+	height: 12.5em;
+	border-radius: 100%;
+	margin-left: 16%;
 }
 
 #arrows {
-	height: 200px;
-	width: 200px;
+	height: 40%;
+	width: 40%;
 	float: left;
-	margin-left: 3%;
+	margin-left: 15%;
 }
 #bio {
-	line-height: 25px;
-	margin-left: 15%;
-	border: 5px;
-	padding: 15px;
-	font-size: 17px;
+	line-height: 1.4em;
+	margin-left: 35%;
+	margin-top: 3%;
+	margin-bottom: 2%;
+	border: .15em;
+	padding: 1%;
+	font-size: 1em;
 	border-style: solid;
 	border-color: gray;
 	float: right;
     position: absolute;
-    width: 400px;
+    width: 35%;
 
 }
 
-.contact ul {
-	margin: 0;
-	padding 0;
+.contact {
+	margin-top: 1%;
+	margin-left: 15%;
+	padding-bottom: 1%;
 	list-style-type: none;
-	text-align: center;
-	display: inline-block;
-	float: right;
+	text-align: left;
+	display: block;
+	padding-left: 3%;
+	position: relative;
 }
-.contact ul li {
-  	display: inline-block;
-  	float: right;
+.contact li {
+  	display: block;
+  	padding-bottom: 2%;
 }
 
-
-.contact ul li a {
+.contact li a {
 	text-decoration: none;
-	padding: 5em;
-	display: inline-block;
-	float: right;
+	list-style: none;
+	padding-left: 1em;
 }
-}
+
+.contact li img {
+  	width: 10%;
+  	padding-right: 2.5em;
+ }
+
+ .contact li p {
+  	padding-bottom: 10%;
+ }
 
 a {
-	  text-decoration:none;
-	  padding-left: 20px;
+	  text-decoration: none;
+	  padding-left: 1em;
 	  color: black;
 }
 img {
-	margin-right: 20px;
-	margin-top: 10px;
+	margin-right: 1%;
+	margin-top: 1%;
 }
 
 h1 {
-	font-size: 20px;
 	text-transform: uppercase;
 	font-family: Lucida Bright;
 	color: gray;
-	font-weight: 300;
 	text-align: center;
-	border: 1px solid;
+	border: .1em solid;
 	border-color: black;
-	padding: 2px;
-	margin: 10px;
+	padding: .2em;
+	margin: .4em;
 }
 h3 {
-	font-size: 20px;
+	font-size: 1.5em;
+	line-height: 1.5em;
 	font-weight: bold;
 
 
 }
 
 p1 {
-	margin-left: 30px;
+	margin-left: 1em;
 }
 
 
 
+/* Start of media queries */
+
+@media only screen and (min-width: 480px) and (max-width: 800px) {
+
+#methven {
+	display: none;
+}
+
+#arrows {
+	display: none;
+}
+
+#bio {
+	float: none;
+	display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    text-align: center;
+    position: relative;
+}
+
+.contact {
+	display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    position: relative;
+}
+
+.reviews {
+	display: none;
+}
+
+#cloud1, #cloud2, #cloud3 {
+	display: none;
+}
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+#namelogo {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cloud1, #cloud2, #cloud3 {
+	display: none;
+}
 
 
 
+#methven {
+	display: none;
+}
+
+#arrows {
+	display: none;
+}
+
+#bio {
+	float: none;
+	display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    text-align: center;
+    position: relative;
+}
+
+.contact {
+	display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    position: relative;
+}
+
+.column3 {
+	display: none;
+}
+.column2 {
+	width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  	padding-bottom: 1em;
+  	font-family: 'Lucida Bright';
+  	position: relative;
+  	-moz-box-sizing: border-box;
+  	-webkit-box-sizing: border-box;
+  	box-sizing: border-box;
+  	text-align: center;
+}
+h1, h2 {
+	display: none;
+}
+
+.reviews {
+	display: none;
+}
+
+.column {
+	display: none;
+}
+
+#booktext {
+	display: none;
+}
+
+hr {
+	display: none;
+}
+
+section {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	text-align: center;
+}
+
+.buylinks li img {
+	width: 15%;
+}
+
+footer {
+	display: none;
+}
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
 
