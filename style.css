@@ -613,6 +613,103 @@ footer {
 }
 }
 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+	#namelogo {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cloud1, #cloud2, #cloud3 {
+	display: none;
+}
+
+
+
+#methven {
+	display: none;
+}
+
+#arrows {
+	display: none;
+}
+
+#bio {
+	float: none;
+	display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    text-align: center;
+    position: relative;
+}
+
+.contact {
+	display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    position: relative;
+}
+
+.column3 {
+	display: none;
+}
+.column2 {
+	width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  	padding-bottom: 1em;
+  	font-family: 'Lucida Bright';
+  	position: relative;
+  	-moz-box-sizing: border-box;
+  	-webkit-box-sizing: border-box;
+  	box-sizing: border-box;
+  	text-align: center;
+}
+h1, h2 {
+	display: none;
+}
+
+.reviews {
+	display: none;
+}
+
+.column {
+	display: none;
+}
+
+#booktext {
+	display: none;
+}
+
+hr {
+	display: none;
+}
+
+section {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	text-align: center;
+}
+
+.buylinks li img {
+	width: 15%;
+}
+
+footer {
+	display: none;
+}
+}
+}
+
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
