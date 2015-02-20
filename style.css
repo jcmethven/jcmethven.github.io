@@ -99,12 +99,29 @@ h2 {
 	padding: 0;
 }
 
-    #cloud1{
+#cloud1, #cloud2, #cloud3 {
+	
+}
+
+#cloud1 img {
+	width: 90%;	
+	} 
+
+#cloud2 img {
+	width: 90%;	
+		} 
+
+#cloud3 img {
+	width: 90%;	
+}
+
+#cloud1{
   	-webkit-animation: pulse 4.6s infinite;
 	-moz-animation: pulse 4.6s infinite;
 	-o-animation: pulse 4.6s infinite;
 	animation: pulse 4.6s infinite;
-  	float: left;
+  	width: 33.33%;
+	float: left;
 }
 
 #cloud1:before{
@@ -132,7 +149,8 @@ h2 {
 -moz-animation: pulse 5.2s infinite;
 -o-animation: pulse 5.2s infinite;
 animation: pulse 5.2s infinite;
-  float: left;
+  width: 33.33%;
+	float: left;
 }
 
 #cloud2:before{
@@ -160,6 +178,7 @@ animation: pulse 5.2s infinite;
 -moz-animation: pulse 6s infinite;
 -o-animation: pulse 6s infinite;
 animation: pulse 6s infinite;
+  width: 33.33%;
   float: left;
 }
 
@@ -189,7 +208,6 @@ footer {
 	font-size: 1em;
 	text-align: center;
 	color: gray;
-	margin-top: 5%;
 	float: center;
 }
 
@@ -951,31 +969,6 @@ figcaption p {
 	line-height: 1.5;
 }
 
-/* Media Queries */
-@media screen and (max-width: 37.8125em) {
-	.align > li {
-		width: 100%;
-		min-height: 440px;
-		height: auto;
-		padding: 0;
-		margin: 0 0 30px 0;
-	}
-
-	.book {
-		margin: 1em auto;
-	}
-
-	figcaption {
-		text-align: center;
-		width: 320px;
-		top: 250px;
-		padding-left: 0;
-		left: -80px;
-		font-size: 90%;
-	}
-}
-
-
 
 /* finish of testing book 2 ----------- */
 
@@ -1005,30 +998,6 @@ body {
     padding: 50px 0;
     clear: both;
 }
-  /* Old book page code 
-
-  .buylinks {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	list-style-type: none;
-}
-
-.buylinks li a {
-	display: block;
-  	
- }
-
-.buylinks li img {
-	width: 8%;
-	margin-left: 3%;
-  	display: block;
-  	float: left;
-  	padding-right: 5%;
-
- }
-
-*/
 
 .reviews {
   	overflow: hidden;
@@ -1748,93 +1717,37 @@ p1 {
 
 /* Start of media queries */
 
-@media only screen and (min-width: 1500px) {
+@media screen and (max-width: 37.8125em) {
+	.align > li {
+		width: 100%;
+		min-height: 440px;
+		height: auto;
+		padding: 0;
+		margin: 0 0 30px 0;
+	}
 
-#homenav {
-	width: 35%;
-	margin-left: 0 auto;
-	margin-right: 0 auto;
-	border: 0;
-	padding: 0;
-	bottom: 0;
-}
-}
+	.book {
+		margin: 1em auto;
+	}
 
-@media only screen and (min-width: 1800px) and (min-width: 1849px) {
-
-#homenav {
-	width: 45%;
-	margin-left: auto;
-	margin-right: auto;
-	border: 0;
-	padding: 0;
-	text-align: center;
-	bottom: 0;
-}
+	figcaption {
+		text-align: center;
+		width: 320px;
+		top: 250px;
+		padding-left: 0;
+		left: -80px;
+		font-size: 90%;
+	}
 }
 
-
-@media screen and (min-width: 1300px) and (max-width: 1799.9px) {
-
-#homenav {
-	width: 65%;
-	margin-left: auto;
-	margin-right: auto;
-	border: 0;
-	padding: 0;
-	text-align: center;
-	bottom: 0;
-}
-}
-
-@media screen and (min-width: 1000px) and (max-width: 1299.9px) {
-
-#homenav {
-	width: 65%;
-	margin-left: auto;
-	margin-right: auto;
-	border: 0;
-	padding: 0;
-	text-align: center;
-	bottom: 0;
-}
-}
-@media only screen and (min-width: 480px) and (max-width: 799px) {
-
-#methven {
+@media only screen and (max-width: 1120px) {
+.reviews {
 	display: none;
 }
-
-#arrows {
-	display: none;
 }
 
-#bio {
-	float: none;
-	display: block;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1%;
-    text-align: center;
-    position: relative;
-    border: none;
 }
-
-.contact {
-	display: block;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1%;
-    position: relative;
-}
-.contact img {
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-}
-
+@media only screen and (min-width: 480px) and (max-width: 1119px) {
 .reviews {
 	display: none;
 }
@@ -1849,10 +1762,7 @@ p1 {
 }
 
 }
-
-
-@media only screen and (max-width: 480px) {
-
+@media only screen and (min-width: 480px) and (max-width: 670px) {
 
 #namelogo {
     width: auto;
@@ -1867,41 +1777,22 @@ p1 {
 	display: block;
 	line-height: 1.5em;
 }
+	}
 
+@media only screen and (max-width: 480px) {
 
-#methven {
-	display: none;
-}
-
-#arrows {
-	display: none;
-}
-
-#bio {
-	float: none;
-	display: block;
+#namelogo {
     width: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1%;
-    text-align: center;
-    position: relative;
-    border: none;
 }
 
-.contact {
+#cloud1, #cloud2, #cloud3 {
+	display: none;
+}
+#mobilebox {
 	display: block;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1%;
-    position: relative;
-}
-
-.contact img {
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
+	line-height: 1.5em;
 }
 
 .column3 {
