@@ -1539,6 +1539,8 @@ font-style: normal;
 	width: auto;
 	text-align: center;
 	margin: 0;
+	border: 0;
+	padding: 0;
 }
 
 #bookslogo {
