@@ -115,37 +115,50 @@ h2 {
 	width: 90%;	
 }
 
-#cloud1{
-  	-webkit-animation: pulse 4.6s infinite;
-	-moz-animation: pulse 4.6s infinite;
-	-o-animation: pulse 4.6s infinite;
-	animation: pulse 4.6s infinite;
-  	width: 33.33%;
-	float: left;
-}
-
-#cloud1:before{
-  -webkit-transform: rotate(-50deg);
-}
-
-#cloud1:after{
-  -webkit-transform: rotate(50deg);
+ #cloud1{
+-  	-webkit-animation: pulse 4.6s infinite;
+-	-moz-animation: pulse 4.6s infinite;
+-	-o-animation: pulse 4.6s infinite;
+-	animation: pulse 4.6s infinite;
++  	-webkit-animation-name: pulse;
++  	-webkit-animation-duration: 4.6s;
++  	-webkit-animation-iteration-count: infinite;
++	-moz-animation-name: pulse;
++  	-moz-animation-duration: 4.6s;
++  	-moz-animation-iteration-count: infinite;
++  	animation-name: pulse;
++  	animation-duration: 4.6s;
++  	animation-iteration-count: infinite;
+   	width: 33.33%;
+ 	float: left;
  }
  
-@-webkit-keyframes pulse{
-  0%{
-    -webkit-transform: scale(0.98);
+ #cloud1:before{
+   -webkit-transform: rotate(-50deg);
++  -moz-transform: rotate(-50deg);
++  transform: rotate(-50deg);
+ }
+ 
+ #cloud1:after{
+   -webkit-transform: rotate(50deg);
++  -moz-transform: rotate(50deg);
++  transform: rotate(50deg);
   }
-  50%{
-    -webkit-transform: scale(1.1);
-  }
-  100%{ 
-    -webkit-transform: scale(0.98);
-  }
-}
+- 
+-@-webkit-keyframes pulse{
+-  0%{
+-    -webkit-transform: scale(0.98);
+-  }
+-  50%{
+-    -webkit-transform: scale(1.1);
+-  }
+-  100%{ 
+-    -webkit-transform: scale(0.98);
+-  }
+-}
 
 #cloud2{
-  -webkit-animation: pulse 5.2s infinite;
+-webkit-animation: pulse 5.2s infinite;
 -moz-animation: pulse 5.2s infinite;
 -o-animation: pulse 5.2s infinite;
 animation: pulse 5.2s infinite;
@@ -155,21 +168,32 @@ animation: pulse 5.2s infinite;
 
 #cloud2:before{
   -webkit-transform: rotate(-50deg);
+  -moz-transform: rotate(-50deg);
+  -o-transform: rotate(-50deg);
 }
 
 #cloud2:after{
   -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
+
  }
  
 @-webkit-keyframes pulse{
   0%{
     -webkit-transform: scale(0.98);
+    -moz-transform: scale(0.98);
+    -o-transform: scale(0.98);
   }
   50%{
     -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
   }
   100%{ 
     -webkit-transform: scale(0.98);
+    -moz-transform: scale(0.98);
+    -o-transform: scale(0.98);
   }
 }
 
@@ -184,21 +208,31 @@ animation: pulse 6s infinite;
 
 #cloud3:before{
   -webkit-transform: rotate(-50deg);
+  -moz-transform: rotate(-50deg);
+  -o-transform: rotate(-50deg);
 }
 
 #cloud3:after{
   -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
  }
  
 @-webkit-keyframes pulse{
   0%{
     -webkit-transform: scale(0.98);
+    -moz-transform: scale(0.98);
+    -o-transform: scale(0.98);
   }
   50%{
     -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
   }
   100%{ 
     -webkit-transform: scale(0.98);
+    -moz-transform: scale(0.98);
+    -o-transform: scale(0.98);
   }
 }
 
