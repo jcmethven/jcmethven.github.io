@@ -91,12 +91,13 @@ h2 {
 }
 
 #namelogo img {
-	width: 46%;
+	width: 50%;
 	margin: 0 auto;
 	text-align: center;
 }
 
 #writinglogo {
+	width: auto;
 	text-align: center;
 	margin: 0;
 	border: 0;
@@ -1535,11 +1536,13 @@ font-style: normal;
 }
 
 #aboutlogo {
+	width: auto;
 	text-align: center;
 	margin: 0;
 }
 
 #bookslogo {
+	width: auto;
 	text-align: center;
 	margin: 0;
 	border: 0;
