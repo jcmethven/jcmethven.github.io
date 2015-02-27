@@ -30,10 +30,11 @@ h3 {
 }
 
 #mobilebox {
-	-moz-border-image: url(img/cloud4.png) 0;
+	-moz-background-image: url(img/cloud4.png) 0;
 	-webkit-border-image: url(img/cloud4.png) 0;
 	-o-border-image: url(img/cloud4.png) 0;
 	border-image: url(img/cloud4.png) %; 
+	-moz-background-image: url(img/cloud4.png) 0;
 	border-width: 1em;
 	border-color: black;
 	margin-left: auto;
@@ -97,7 +98,6 @@ h2 {
 }
 
 #writinglogo {
-	width: auto;
 	text-align: center;
 	margin: 0;
 	border: 0;
@@ -1544,7 +1544,7 @@ font-style: normal;
 }
 
 #bookslogo {
-	width: auto;
+
 	text-align: center;
 	margin: 0;
 	border: 0;
