@@ -116,33 +116,30 @@ h2 {
 }
 
 #cloud1{
-  	-webkit-animation: pulse 4.6s infinite;
-	-moz-animation: pulse 4.6s infinite;
-	-o-animation: pulse 4.6s infinite;
-	animation: pulse 4.6s infinite;
+  	-webkit-animation-name: pulse;
+  	-webkit-animation-duration: 4.6s;
+  	-webkit-animation-iteration-count: infinite;
+	-moz-animation-name: pulse;
+  	-moz-animation-duration: 4.6s;
+  	-moz-animation-iteration-count: infinite;
+  	animation-name: pulse;
+  	animation-duration: 4.6s;
+  	animation-iteration-count: infinite;
   	width: 33.33%;
 	float: left;
 }
 
 #cloud1:before{
   -webkit-transform: rotate(-50deg);
+  -moz-transform: rotate(-50deg);
+  transform: rotate(-50deg);
 }
 
 #cloud1:after{
   -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  transform: rotate(50deg);
  }
- 
-@-webkit-keyframes pulse{
-  0%{
-    -webkit-transform: scale(0.98);
-  }
-  50%{
-    -webkit-transform: scale(1.1);
-  }
-  100%{ 
-    -webkit-transform: scale(0.98);
-  }
-}
 
 #cloud2{
   -webkit-animation: pulse 5.2s infinite;
@@ -161,17 +158,6 @@ animation: pulse 5.2s infinite;
   -webkit-transform: rotate(50deg);
  }
  
-@-webkit-keyframes pulse{
-  0%{
-    -webkit-transform: scale(0.98);
-  }
-  50%{
-    -webkit-transform: scale(1.1);
-  }
-  100%{ 
-    -webkit-transform: scale(0.98);
-  }
-}
 
 #cloud3{
   -webkit-animation: pulse 6s infinite;
@@ -189,8 +175,8 @@ animation: pulse 6s infinite;
 #cloud3:after{
   -webkit-transform: rotate(50deg);
  }
- 
-@-webkit-keyframes pulse{
+
+ @-webkit-keyframes pulse{
   0%{
     -webkit-transform: scale(0.98);
   }
@@ -201,6 +187,57 @@ animation: pulse 6s infinite;
     -webkit-transform: scale(0.98);
   }
 }
+
+@-moz-keyframes pulse{
+  0%{
+    -moz-transform: scale(0.98);
+  }
+  50%{
+    -moz-transform: scale(1.1);
+  }
+  100%{ 
+    -moz-transform: scale(0.98);
+  }
+}
+
+ @keyframes pulse{
+ 	  0%{
+    transform: scale(0.98);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+  100%{ 
+    transform: scale(0.98);
+  }
+
+ }
+
+ h1{
+
+ }
+
+ h2{
+ 	font-family: 
+ }
+
+ h1, h2{
+
+ }
+
+
+h1{
+	font-weight:;
+	font-family:;
+	font-size: ;
+	font-style: ;
+
+
+	font:'Helvetica', sans-serif, 100, 16px;
+
+}
+
+
 
 footer {
 	clear: both;
