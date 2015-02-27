@@ -38,10 +38,32 @@
 
 #mobilebox {
 	display: block;
-	line-height: 1.5em;
+	line-height: 2em;
+}
+
+#mobilebook {
+	font-size: 1.5em;
 }
 
 #namelogo {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bookslogo {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#writinglogo {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#aboutlogo {
     width: auto;
     margin-left: auto;
     margin-right: auto;
