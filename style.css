@@ -122,6 +122,9 @@ h2 {
 	-moz-animation-name: pulse;
   	-moz-animation-duration: 4.6s;
   	-moz-animation-iteration-count: infinite;
+  	animation-name: pulse;
+  	animation-duration: 4.6s;
+  	animation-iteration-count: infinite;
   	width: 33.33%;
 	float: left;
 }
@@ -129,11 +132,13 @@ h2 {
 #cloud1:before{
   -webkit-transform: rotate(-50deg);
   -moz-transform: rotate(-50deg);
+  transform: rotate(-50deg);
 }
 
 #cloud1:after{
   -webkit-transform: rotate(50deg);
   -moz-transform: rotate(50deg);
+  transform: rotate(50deg);
  }
 
 #cloud2{
@@ -207,6 +212,32 @@ animation: pulse 6s infinite;
   }
 
  }
+
+ h1{
+
+ }
+
+ h2{
+ 	font-family: 
+ }
+
+ h1, h2{
+
+ }
+
+
+h1{
+	font-weight:;
+	font-family:;
+	font-size: ;
+	font-style: ;
+
+
+	font:'Helvetica', sans-serif, 100, 16px;
+
+}
+
+
 
 footer {
 	clear: both;
