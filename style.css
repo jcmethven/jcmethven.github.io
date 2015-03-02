@@ -1426,7 +1426,7 @@ h4 {
 	width: 20em;
 }
 
-.container:hover .card {
+.container:hover .card img {
  transform: rotateY(180deg);       
 }
 
@@ -1459,8 +1459,7 @@ h4 {
 .back {
  transform: rotateY(180deg);
  background: 1em white;
- width: 20em;
- border: .1em;
+ width: 20.5em;
  line-height: 1.8em;
 	padding: 3%;
 	font-size: 1em;
@@ -1474,6 +1473,7 @@ h4 {
 /* Icon Font */
 @font-face {
 font-family: 'social-buttons';
+font-family: 'Entypo Social';
 src: url('http://www.robleto.com//assets/fonts/social-buttons.eot');
 src: url('http://www.robleto.com//assets/fonts/social-buttons.eot?#iefix') format('embedded-opentype'),
 url('http://www.robleto.com//assets/fonts/social-buttons.woff') format('woff'),
@@ -1575,4 +1575,153 @@ main {
 	height: 12.5em;
 	border-radius: 100%;
 	margin-left: 16%;
+}
+
+
+
+
+  /*testing the new about page */
+
+  .team_member {
+  margin: auto;
+  position:relative;
+  overflow:hidden;
+  width: 20em;
+  height:20em;
+}
+
+.para {
+  width: 22em;
+  margin: auto;
+  text-align: right;
+}
+
+.info {
+  height:100%;
+  margin:auto;
+}
+
+.info img {
+  width:100%;
+  transition: all .4s ease-out .1s;
+   -moz-transition: all .4s ease-out .1s;
+   -webkit-transition: all .4s ease-out .1s;
+}
+
+.info h5 {
+  padding: 10px 10px 0 0;
+  margin: 0 0 10px 3px;
+  line-height: 1.5em;
+  opacity: 1;
+  transition: all .2s ease-out .1s;
+   -moz-transition: all .2s ease-out .1s;
+   -webkit-transition: all .2s ease-out .1s;
+  font-size: 1em;
+}
+
+.info h6 {
+  padding:0 10px 0 0;
+  font-size:1em;
+  margin:0 0 0 3px;
+  line-height:2em;
+  text-transform:uppercase;
+  color:#999;
+  opacity:1;
+  transition: all .2s ease-out .1s;
+   -moz-transition: all .2s ease-out .1s;
+   -webkit-transition: all .2s ease-out .1s;
+}
+
+.info_reveal {
+  height:100%; 
+  transition: all .3s ease-in 0s;
+   -moz-transition: all .3s ease-in 0s;
+   -webkit-transition: all .23s ease-in 0s;
+  position:absolute;
+  width:100%;
+  left:0;
+  top:-100%;
+  background: gray;
+}
+
+.info_reveal h6 {
+  padding: 20px 8px 5px 8px;
+  line-height: 1.5em;
+		margin-bottom: 20px;
+		color: #fff;
+  font-size: 1em;
+}
+
+.info_reveal p {
+  padding:0 8px;
+  font-size:15px;
+  line-height: 1.2em;
+  color: #073a2e;
+  font-weight:100;  
+}
+
+.info_reveal a {
+  color: black;
+		word-break: break-word;
+  text-decoration:none;
+}
+
+.info_reveal a:hover {
+  color: #e67e22;
+}
+
+
+.responsive_grid {
+ display:block;
+ margin:auto;
+ padding:0;
+ list-style:none;
+ width: 22em;
+}
+
+.responsive_grid li {
+ cursor:pointer;
+ width: 16.66667%;
+ padding: 0 10px 10px;
+ display:block;
+ height:auto;
+ float:left;
+ margin-bottom:10px;
+}
+
+.responsive_grid li:hover .info_reveal,
+.responsive_grid li:focus .info_reveal{
+ left: 0;
+ top:0;
+ transition: all .3s ease-out .1s;
+   -moz-transition: all .3s ease-out .1s;
+   -webkit-transition: all .3s ease-out .1s;
+}
+
+.responsive_grid li:hover .info img,
+.responsive_grid li:focus .info img {
+  width:210%;
+  margin-left:-50%;
+  transition: all .4s ease-in 0s;
+   -moz-transition: all .4s ease-in 0s;
+   -webkit-transition: all .4s ease-in 0s;
+}
+
+.responsive_grid li:hover .info h5,
+.responsive_grid li:focus .info h5,
+.responsive_grid li:hover .info h6,
+.responsive_grid li:focus .info h6 {
+  opacity: 0;
+  transition: opacity .2s linear 0s;
+   -moz-transition: opacity .2s linear 0s;
+   -webkit-transition: opacity .2s linear 0s;
+}
+
+
+
+
+/*Just some styles for Codepen preview*/
+
+h5, h6, .info_reveal a {
+  font-family: 'Open Sans Condensed', sans-serif;
 }
