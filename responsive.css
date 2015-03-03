@@ -35,6 +35,7 @@
 .team_member {
 	display: none;
 }
+
 #mainnav {
 	width: auto;
 	margin: auto;
@@ -87,7 +88,8 @@ footer {
 	display: block;
 }
 
-.container {
+
+.mcd-menu {
 	display: none;
 }
 }
