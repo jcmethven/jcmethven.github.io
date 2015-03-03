@@ -88,6 +88,9 @@ footer {
 	display: block;
 }
 
+.container {
+	display: none;
+}
 
 .mcd-menu {
 	display: none;
