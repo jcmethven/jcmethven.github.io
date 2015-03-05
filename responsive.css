@@ -45,11 +45,6 @@
 	display: none;
 }
 
-#mobilebox {
-	display: block;
-	line-height: 2em;
-}
-
 #namelogo {
     width: auto;
     margin-left: auto;
@@ -84,9 +79,34 @@ footer {
 .reviews {
 	display: none;
 }
+
 #mobilebook {
 	display: block;
 }
+
+#mobilebox {
+	display: block;
+	line-height: 2.5em;
+	-moz-background-image: url("img/cloud4.png") 0;
+	-webkit-background-image: url("img/cloud4.png") 0;
+	-o-background-image: url("img/cloud4.png") 0;
+	background-image: url("img/cloud4.png"); 
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 201px;
+	height: 380px;
+}
+
+#word1 {
+	padding-top: 4em;
+ }
+
+ .component {
+ 	display: none;
+ }
 
 .container {
 	display: none;

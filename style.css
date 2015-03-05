@@ -30,12 +30,7 @@ h3 {
 }
 
 #mobilebox {
-	-moz-background-image: url(img/cloud4.png) 0;
-	-webkit-border-image: url(img/cloud4.png) 0;
-	-o-border-image: url(img/cloud4.png) 0;
-	border-image: url(img/cloud4.png) %; 
-	-moz-background-image: url(img/cloud4.png) 0;
-	background-image: inherit;
+	
 	border-width: 1em;
 	border-color: black;
 	margin-left: auto;
@@ -45,10 +40,12 @@ h3 {
 	width: 12em;
 	height: 15em;
 	display: none;
-	line-height: 1em;
+
 }
 
-
+#cloud4 {
+	display: none;
+}
 
 #word1 {
 	margin-top: 1.5em;
