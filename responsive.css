@@ -86,7 +86,7 @@ footer {
 
 #mobilebox {
 	display: block;
-	line-height: 1.5em;
+	line-height: 2em;
 	-moz-background-image: url("img/cloud4.png") 0;
 	-webkit-background-image: url("img/cloud4.png") 0;
 	-o-background-image: url("img/cloud4.png") 0;
@@ -96,8 +96,8 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	width: 140px;
-	height: 275px;
+	width: 155px;
+	height: 290px;
 }
 
 #mainlogo {
